@@ -1,0 +1,23 @@
+
+.col-center {
+    display: float;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    align-items: center;
+}
+
+label {
+    width: 300px !important;
+    font-weight: bold !important;
+    display: inline-block !important;
+    margin-top: 20px !important;
+}
+
+.btn .caret {
+    display: none;
+    margin-left: 0;
+}
+

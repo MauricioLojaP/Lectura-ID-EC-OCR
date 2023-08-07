@@ -1,0 +1,62 @@
+.login{
+
+    --tw-bg-opacity: 1;
+    background-color: rgb(241 245 249 / var(--tw-bg-opacity));
+
+}
+
+.col-center {
+    display: float;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    align-items: center;
+}
+
+
+.select2-container{ width: 100% !important; }
+
+#ajaxBusy
+{
+    display: none;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background: url('loader.gif') 50% 50% no-repeat rgb(249,249,249);
+    opacity: .8;
+}
+.modal-body{
+  max-height:150px;
+  overflow:auto;
+}
+
+
+.form-step {
+    display: none;
+    transform-origin: top;
+    animation: animate 0.5s;
+  }
+  
+  .form-step-active {
+    display: block;
+  }
+  
+  .input-group {
+    margin: 2rem 0;
+  }
+  
+  @keyframes animate {
+    from {
+      transform: scale(1, 0);
+      opacity: 0;
+    }
+    to {
+      transform: scale(1, 1);
+      opacity: 1;
+    }
+  }
